@@ -1,0 +1,7 @@
+CREATE TABLE notes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id VARCHAR(255) NOT NULL,
+    note TEXT NOT NULL,
+    points INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
